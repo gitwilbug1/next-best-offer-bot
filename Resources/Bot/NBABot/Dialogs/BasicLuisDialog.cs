@@ -17,8 +17,8 @@ namespace NBABot.Dialogs
     [Serializable]
     public class BasicLuisDialog : LuisDialog<object>
     {
-        private const string offer1 = "Would you like to schedule an appointment?";
-        private const string offer2 = "Would you like to receive a brochure?";
+        private const string offer1 = "We have an auto loan promotion starting at 3% apr.";
+        private const string offer2 = "We have a creditcard promotion with 15% apr.";
 
         // Replace this with the Logic App Request URL.
         private static string logicAppURL = ConfigurationManager.AppSettings["LogicAppUrl"];
@@ -39,14 +39,20 @@ namespace NBABot.Dialogs
             await interact(context, result, "I didn't understand your request. You can call us at 1-800-FABRIKAM.");
         }
 
-        [LuisIntent("complain about a model")]
+        [LuisIntent("complain about a branch")]
         public async Task ComplainIntent(IDialogContext context, LuisResult result)
         {
-            await interact(context, result, "We have taken note of your complaint about the {0}.");
+            await interact(context, result, "We have taken note of your complaint about the {0} branch.");
         }
 
-        [LuisIntent("get info about a model")]
-        public async Task GetInfoIntent(IDialogContext context, LuisResult result)
+        [LuisIntent("get info about a credit card")]
+        public async Task GetCCInfoIntent(IDialogContext context, LuisResult result)
+        {
+            await interact(context, result, "You will find detailed information about {0} at http://fabrikam.com/our-range");
+        }
+
+        [LuisIntent("get info about a loan")]
+        public async Task GetLoanInfoIntent(IDialogContext context, LuisResult result)
         {
             await interact(context, result, "You will find detailed information about {0} at http://fabrikam.com/our-range");
         }
@@ -96,7 +102,7 @@ namespace NBABot.Dialogs
             if (await confirmation)
             {
                 lob.Intent = "accepted proposal";
-                message = $"Ok, done.";
+                message = $"Please fill out a loan application here: http://fabrikam.com/loanapp.";
             }
             else
             {
@@ -192,7 +198,7 @@ namespace NBABot.Dialogs
                     var offer = offer1AcceptProb >= offer2AcceptProb ? offer1 : offer2;
 
                     System.Diagnostics.Debug.WriteLine("Offer: {0}", offer);
-                    return offer;                    
+                    return offer;
                 }
                 else
                 {
