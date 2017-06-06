@@ -18,7 +18,7 @@ namespace NBABot.Dialogs
     public class BasicLuisDialog : LuisDialog<object>
     {
         private const string offer1 = "We have an auto loan promotion starting at 3% apr.";
-        private const string offer2 = "We have a creditcard promotion with 15% apr.";
+        private const string offer2 = "We have a travel points creditcard promotion with 15% apr.";
 
         // Replace this with the Logic App Request URL.
         private static string logicAppURL = ConfigurationManager.AppSettings["LogicAppUrl"];
@@ -42,7 +42,7 @@ namespace NBABot.Dialogs
         [LuisIntent("complain about a branch")]
         public async Task ComplainIntent(IDialogContext context, LuisResult result)
         {
-            await interact(context, result, "We have taken note of your complaint about the {0} branch.");
+            await interact(context, result, "We have taken note of your branch complaint: {0}.");
         }
 
         [LuisIntent("get info about a credit card")]
