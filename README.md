@@ -5,4 +5,4 @@ This is a modified version of the <a href="https://github.com/algattik/CISBotHac
 - Add and modified various scripts
 - Added AML PowerShell deployment scripts
 - Removed Azure Functions from solution
-- Add DevTest Labs integration 
+- Add DevTest Labs integration
