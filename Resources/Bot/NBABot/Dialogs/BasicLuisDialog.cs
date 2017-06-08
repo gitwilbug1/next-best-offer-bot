@@ -17,8 +17,8 @@ namespace NBABot.Dialogs
     [Serializable]
     public class BasicLuisDialog : LuisDialog<object>
     {
-        private const string offer1 = "We have an auto loan promotion starting at 3% apr.";
-        private const string offer2 = "We have a travel points creditcard promotion with 15% apr.";
+        private const string offer1 = "We have an auto loan promotion starting at 3% apr.  Would you like to fill out an online application?";
+        private const string offer2 = "We have a credit card promotion with 15% apr.  Would you like to fill out an online application?";
 
         // Replace this with the Logic App Request URL.
         private static string logicAppURL = ConfigurationManager.AppSettings["LogicAppUrl"];
@@ -39,22 +39,22 @@ namespace NBABot.Dialogs
             await interact(context, result, "I didn't understand your request. You can call us at 1-800-FABRIKAM.");
         }
 
-        [LuisIntent("complain about a branch")]
+        [LuisIntent("complain about a product or service")]
         public async Task ComplainIntent(IDialogContext context, LuisResult result)
         {
-            await interact(context, result, "We have taken note of your branch complaint: {0}.");
+            await interact(context, result, "We have taken note of your complaint.");
         }
 
         [LuisIntent("get info about a credit card")]
         public async Task GetCCInfoIntent(IDialogContext context, LuisResult result)
         {
-            await interact(context, result, "You will find detailed information about {0} at http://fabrikam.com/our-range");
+            await interact(context, result, "You will find detailed information about credit cards at http://fabrikam.com/ccinfo");
         }
 
         [LuisIntent("get info about a loan")]
         public async Task GetLoanInfoIntent(IDialogContext context, LuisResult result)
         {
-            await interact(context, result, "You will find detailed information about {0} at http://fabrikam.com/our-range");
+            await interact(context, result, "You will find detailed information about loans at http://fabrikam.com/loaninfo");
         }
 
         private async Task interact(IDialogContext context, LuisResult result, string message)
