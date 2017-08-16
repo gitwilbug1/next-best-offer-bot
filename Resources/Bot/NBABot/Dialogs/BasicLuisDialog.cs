@@ -39,7 +39,7 @@ namespace NBABot.Dialogs
             await interact(context, result, "I didn't understand your request. You can call us at 1-800-FABRIKAM.");
         }
 
-        [LuisIntent("complain about a product or service")]
+        [LuisIntent("make a complaint")]
         public async Task ComplainIntent(IDialogContext context, LuisResult result)
         {
             await interact(context, result, "We have taken note of your complaint.");

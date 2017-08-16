@@ -1,11 +1,11 @@
 #region - used for creating Azure service names
-$studentnumber = "80"
+$studentnumber = "02"
 $namePrefix = "cisbot" + $studentnumber
 $resourceGroupName = $namePrefix
 #endregion
 
 #region - service locations
-$location = "Central US" # default location for resource group and all services except ADL and AML
+$location = "West US" # default location for resource group and all services except ADL and AML
 $dataFactoryLocation = $location
 $cognitiveServiceLocation = $location # LUIS and Text Analytics are only available in West US
 $dataLakeLocation = "Central US" # ADLS service availability: centralus, eastus2, northeurope

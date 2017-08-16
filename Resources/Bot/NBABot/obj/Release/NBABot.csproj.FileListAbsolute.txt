@@ -1,0 +1,40 @@
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\Bot Application.dll.config
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\Bot Application.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\Bot Application.pdb
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\Autofac.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\Chronic.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\Microsoft.Bot.Builder.Autofac.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\Microsoft.Bot.Builder.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\Microsoft.Bot.Connector.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\Newtonsoft.Json.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\System.Net.Http.Formatting.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\System.Web.Http.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\System.Web.Http.WebHost.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\Autofac.xml
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\Microsoft.Bot.Builder.xml
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\Microsoft.Bot.Builder.Autofac.xml
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\Microsoft.Bot.Connector.xml
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\Newtonsoft.Json.xml
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\System.Net.Http.Formatting.xml
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\System.Web.Http.xml
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\System.Web.Http.WebHost.xml
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\cs\Microsoft.Bot.Builder.resources.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\obj\Release\NBABot.csprojResolveAssemblyReference.cache
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\obj\Release\Bot Application.dll
+C:\Repos\next-best-offer-bot\Resources\Bot\NBABot\obj\Release\Bot Application.pdb
